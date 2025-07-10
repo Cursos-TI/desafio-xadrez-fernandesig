@@ -43,7 +43,7 @@ int main() {
     printf("Movimentacao Cavalo\n");
     printf("\n");    
 
-    for (int j = 0; j < 1; j++)
+    for (int j = 0; j < 1; j++) //for roda uma vez
     {
         int k = 0;
 
@@ -51,7 +51,7 @@ int main() {
         {
             printf("Baixo\n");
             k++;            
-        } while (k < 2 );
+        } while (k < 2 ); //do-while roda duas vezes
 
         printf ("Esquerda");        
                
